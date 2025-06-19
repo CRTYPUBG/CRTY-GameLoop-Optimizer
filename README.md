@@ -26,4 +26,14 @@
 3. Run the script:  
    ```powershell
    .\CRTY_GameLoop_Optimizer.ps1
-   iwr -useb https://bit.ly/crty_web_gameloop | iex 
+## How to Use
+
+You can use the **CRTY GameLoop Optimizer** in two ways:
+
+### 1. Run Instantly Without Downloading
+
+Open **PowerShell as Administrator** and run this command to download and run the latest version instantly:
+
+```powershell
+iwr -useb https://bit.ly/crty_web_gameloop | iex
+
