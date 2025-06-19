@@ -1,24 +1,28 @@
 # CRTY GameLoop Optimizer
 
-**CRTY GameLoop Optimizer**, Windows üzerinde Tencent GameLoop için FPS artışı ve performans iyileştirmesi sağlayan, kullanımı kolay bir PowerShell tabanlı optimizasyon aracıdır.
+**CRTY GameLoop Optimizer** is an easy-to-use PowerShell-based optimization tool designed to boost FPS and improve performance for Tencent GameLoop on Windows.
 
 ---
 
-## Özellikler
-
-- CPU güç planını yüksek performansa ayarlar.
-- Superfetch (SysMain) servisini kapatarak gereksiz arka plan işlemlerini azaltır.
-- Gereksiz sistem servislerini devre dışı bırakır.
-- GameLoop işlem önceliğini yüksek yaparak daha akıcı oyun deneyimi sağlar.
-- TCP autotuning'i kapatarak ağ gecikmesini azaltmaya yardımcı olur.
-- Kolayca yapılan optimizasyonları geri alma imkanı.
+![CRTY GameLoop Optimizer Screenshot](https://raw.githubusercontent.com/CRTYPUBG/CRTY-GameLoop-Optimizer/refs/heads/main/screenshot.png)
 
 ---
 
-## Kullanım
+## Features
 
-1. PowerShell'i **Yönetici olarak** açın.
-2. `CRTY_GameLoop_Optimizer.ps1` dosyasını indirin veya içeriği kopyalayın.
-3. Scripti çalıştırın:
+- Sets CPU power plan to High Performance mode.
+- Disables Superfetch (SysMain) service to reduce unnecessary background processes.
+- Disables unnecessary system services.
+- Increases GameLoop process priority for smoother gameplay.
+- Disables TCP autotuning to help reduce network lag.
+- Allows easy rollback of applied optimizations.
+
+---
+
+## Usage
+
+1. Open PowerShell **as Administrator**.  
+2. Download or copy the `CRTY_GameLoop_Optimizer.ps1` script file.  
+3. Run the script:  
    ```powershell
    .\CRTY_GameLoop_Optimizer.ps1
